@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+  font-family: 'Itim', cursive;
+}
+h2{
+  margin: 30px 0px;
+}
+.bg-dark{
+  background-color: rgba(0, 0, 0, 0.814) !important;
+    -webkit-backdrop-filter: blur(7px);
+      backdrop-filter: blur(7px);
+}
+.navbar-brand{
+  font-size: 30px;
+  margin-left: 10%;
+}
+.col{
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+  margin: 100px 0px;
+  padding: 20px 10px;
+  border-radius: 30px;
+}
+.col:nth-child(1){
+  margin-top: 0px;
+}
+.col p{
+  text-align: left;
+} 
+@media (min-width: 992px) {
+  .navbar-nav{
+    display: none;
+  }
+}
